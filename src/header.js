@@ -1,5 +1,6 @@
 import React from 'react';
 // import ReactDOM from 'react-dom';
+import './header.css';
 
 class Header extends React.Component {
 
@@ -10,7 +11,9 @@ class Header extends React.Component {
 
     render() {
         return (
-            <p>{this.state.about} component</p>
+            <div id="component">
+                <label>Doud Systems, Inc.</label>
+            </div>
         );
     }
 }

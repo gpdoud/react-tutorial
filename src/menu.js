@@ -1,5 +1,6 @@
 import React from 'react';
 // import ReactDOM from 'react-dom';
+import './menu.css';
 
 class Menu extends React.Component {
 
@@ -10,7 +11,13 @@ class Menu extends React.Component {
 
     render() {
         return (
-            <p>{this.state.about} component</p>
+            <nav id="component">
+                <ul>
+                    <li><a href="#top">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#top">Help</a></li>
+                </ul>
+            </nav>
         );
     }
 }
